@@ -1,0 +1,76 @@
+/* Define primary colors */
+:root {
+  --primary-blue: #ffffff;
+  --font-color: #545454;
+}
+
+/* Apply global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brandon Grotesque', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Define font faces */
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  src: url('assets/font/BrandonGrotesque-Bold.woff2') format('woff2'),
+       url('assets/font/BrandonGrotesque-Bold.woff') format('woff'),
+       url('assets/font/BrandonGrotesque-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  src: url('assets/font/BrandonGrotesque-Regular.woff2') format('woff2'),
+       url('assets/font/BrandonGrotesque-Regular.woff') format('woff'),
+       url('assets/font/BrandonGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
+  font-style: italic;
+  src: url('assets/font/BrandonGrotesque-RegularItalic.woff2') format('woff2'),
+       url('assets/font/BrandonGrotesque-RegularItalic.woff') format('woff'),
+       url('assets/font/BrandonGrotesque-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: 900;
+  font-style: normal;
+  src: url('assets/font/BrandonGrotesque-Black.woff2') format('woff2'),
+       url('assets/font/BrandonGrotesque-Black.woff') format('woff'),
+       url('assets/font/BrandonGrotesque-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: 500;
+  font-style: normal;
+  src: url('assets/font/BrandonGrotesque-Medium.woff2') format('woff2'),
+       url('assets/font/BrandonGrotesque-Medium.woff') format('woff'),
+       url('assets/font/BrandonGrotesque-Medium.ttf') format('truetype');
+}
+
+/* Center the logo vertically */
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add margin to the logo */
+.logo {
+  margin-right: 10px;
+}

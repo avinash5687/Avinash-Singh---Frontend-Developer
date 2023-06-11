@@ -1,0 +1,160 @@
+.App {
+  padding: .5em;
+}
+
+.App-main {
+  text-align: center;
+  background: url(assets/img/launch-home.png) no-repeat left;
+  background-size: 50% auto;
+  min-height: 850px;
+  max-height: 1000px;
+}
+
+.Page-title {
+  color: #505050;
+}
+
+.Page-title span {
+  margin-left: -1em;
+}
+
+.logo {
+  height: 25px; 
+  width: auto;
+}
+
+.Reload-data {
+  position: absolute;
+  right: 0;
+  top: .5em;
+  background: #005288;
+  color: #fff;
+  padding: .5em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  text-decoration: none;
+}
+
+.Reload-data img {
+  height: .75em;
+}
+
+.App-header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 2em;
+}
+
+.page-title {
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Data-holder {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+}
+
+.Filter-btns {
+  display: block;
+}
+
+.filter {
+  background: #005288 url(assets/icon/sort.png) no-repeat bottom 16px right 10px;
+}
+
+.sort {
+  background: #005288 url(assets/icon/select.png) no-repeat bottom 22px right 10px;
+  margin-left: 1em;
+}
+
+.sorted {
+  background: #005288 url(assets/icon/select-up.png) no-repeat bottom 22px right 10px;
+  margin-left: 1em;
+}
+
+.launches {
+  position: absolute;
+  margin-top: 3em;
+  list-style: none;
+  width: 40%;
+}
+
+.launches li {
+  height: 4em;
+  margin: 1em 0;
+  border-radius: 1em;
+  box-shadow: rgb(204, 204, 204) 0px 7px 5px 0px;
+  border: 1px solid #CCCCCC;
+  position: relative;
+}
+
+.launches li span {
+  position: relative;
+  float: left;
+  font-size: 1.5em;
+  top: .75em;
+}
+
+.launches li span.flight {
+  width: 2.75em;
+  padding-right: .5em;
+}
+
+.launches li span.name {
+  /*margin-left: 2em;*/
+}
+
+.launches li span.date {
+  font-size: 0.75em;
+  color: #3D4849;
+  float: right;
+  margin-right: 1em;
+}
+
+.launches li span.rocket {
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 1.75rem 1em 1em;
+    margin: 0;
+    text-decoration: none;
+    background: #005288;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+@media screen and (max-width: 840px) {
+  
+  .App-main {
+    background: none;
+  }
+
+  .launches {
+    width: 89%;
+  }
+
+}

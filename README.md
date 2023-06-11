@@ -1,4 +1,4 @@
-**Deployed Link :- https://avinashsinghspacex.netlify.app/**
+**Live Site Link :- https://avinashsinghspacex.netlify.app/**
 
 
 # Getting Started with Create React App
